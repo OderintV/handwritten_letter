@@ -1,0 +1,7 @@
+# Ignore virtual environment and datasets (too large for GitHub)
+
+venv/
+data/
+backup/
+__pycache__/
+.DS_Store
