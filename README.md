@@ -11,7 +11,6 @@ python predict.py sehraj.jpg         # predict (reads several letters left-to-ri
 python predict.py sehraj.jpg --single --debug   # one letter; saves debug images of what the model sees
 python evaluate_custom.py my_samples/           # optional: metrics on your own labelled photos (A_1.jpg, b_2.png ...)
 ```
-Training is fast on a GPU (Google Colab free T4: a few minutes); CPU works but is slower.
 
 ## How it works
 1. **Model** (`model.py`): 3 conv blocks (conv-BN-ReLU x2, pool, dropout) + 2 FC layers, ~0.5M params.
@@ -29,7 +28,7 @@ Use `--single` when the image holds exactly one letter.
 ## Results (fill in from `metrics.json` after training)
 | Metric | Value |
 |---|---|
-| EMNIST Letters test accuracy | |
-| Top-3 accuracy | |
-| Macro F1 | |
+| EMNIST Letters test accuracy | 0.9556730769230769|
+| Top-3 accuracy | 0.9972115384615384|
+| Macro F1 |0.9556414278161586 |
 Known confusions (see `confusion_matrix.png`): I/L, O/Q, G/Q, U/V - partly because EMNIST merges cases (e.g. "i" vs "l" vs "I").
