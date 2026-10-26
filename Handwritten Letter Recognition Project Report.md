@@ -66,9 +66,9 @@ The `--single` option tells the program the image holds exactly one letter, and 
 
 | Metric | Value |
 | --- | --- |
-| Test accuracy | **95.50%** |
-| Top-3 accuracy | **99.69%** |
-| Macro F1 score | **0.9551** |
+| Test accuracy | **95.57%** |
+| Top-3 accuracy | **99.72%** |
+| Macro F1 score | **0.9556** |
 | Best validation accuracy | 95.49% |
 | Macro precision / recall | 0.9553 / 0.9550 |
 

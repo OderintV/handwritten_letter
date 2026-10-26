@@ -15,7 +15,7 @@ Peer projects on this task typically report around 80-90% accuracy, so this mode
 |---|---|---|---|
 | EMNIST Letters test set (never seen in training) | 20,800 | **95.50%** | Top-3 99.69%, macro F1 0.9551, macro precision 0.9553, macro recall 0.9550 |
 | EMNIST validation split (used to pick the best epoch) | 12,480 | 95.49% | |
-| `my_samples` - our own labelled photos (one letter each) | 30 | **96.7%** (29/30) | Only error: a plain vertical stroke "l" read as "I" |
+| `my_samples` - our own labelled photos (one letter each) | 30 | **97%** (29/30) | Only error: a plain vertical stroke "l" read as "I" |
 | `my_samples2` - harder photos (other people, red ink, shadows, 4-letter photo) | 11 usable | run it and see section 5 | |
 
 Best letters (F1): Z 0.995, M 0.993, P 0.992, W 0.991. Weakest: L 0.752, I 0.763, G 0.886, Q 0.896.
